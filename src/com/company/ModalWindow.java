@@ -2,7 +2,7 @@ package com.company;
 
 import javax.swing.JOptionPane;
 
-public class ModalWindow {
+class ModalWindow {
     public static void main(String[] args) {
         int yearNow, yearBorn, userAge;
         String userData;
@@ -14,3 +14,4 @@ public class ModalWindow {
         JOptionPane.showMessageDialog(null, "You're age is " + userAge + " years!");
     }
 }
+

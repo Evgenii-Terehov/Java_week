@@ -7,8 +7,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="91153ccf-2425-44cf-8343-a9cdb3ad8953" name="Default Changelist" comment="Test_one">
+      <change afterPath="$PROJECT_DIR$/com/company/MyClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/company/ModalWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/company/ModalWindow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/One_hour_lesson/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/One_hour_lesson/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/One_hour_lesson/com/company/Ass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/One_hour_lesson/com/company/Ass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/One_hour_lesson/com/company/Class.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/One_hour_lesson/com/company/Class.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/One_hour_lesson/com/company/HelloClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/One_hour_lesson/com/company/HelloClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/One_hour_lesson/com/company/Listing.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/One_hour_lesson/com/company/Listing.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/One_hour_lesson/com/company/ModalWindow.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/One_hour_lesson/com/company/ModalWindow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/One_hour_lesson/com/company/MyClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/One_hour_lesson/com/company/MyClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/One_hour_lesson/com/company/MyMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/One_hour_lesson/com/company/MyMethod.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/One_hour_lesson/com/company/MyNewClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/One_hour_lesson/com/company/MyNewClass.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,14 +67,15 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager" selected="Application.ModalWindow">
-    <configuration name="HelloClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.HelloClass" />
+  <component name="RunManager" selected="Application.ForWithIf">
+    <configuration name="ForWithIf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.ForWithIf" />
       <module name="One_hour_lesson" />
       <extension name="coverage">
         <pattern>
@@ -75,8 +87,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Listing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Listing" />
+    <configuration name="Listing6_6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Listing6_6" />
       <module name="One_hour_lesson" />
       <extension name="coverage">
         <pattern>
@@ -88,8 +100,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ModalWindow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.ModalWindow" />
+    <configuration name="SwitchCase" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.SwitchCase" />
       <module name="One_hour_lesson" />
       <extension name="coverage">
         <pattern>
@@ -101,8 +113,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.MyMethod" />
+    <configuration name="WithIf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.WithIf" />
       <module name="One_hour_lesson" />
       <extension name="coverage">
         <pattern>
@@ -114,8 +126,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scanner_input" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Scanner_input" />
+    <configuration name="WithInputing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.WithInputing" />
       <module name="One_hour_lesson" />
       <extension name="coverage">
         <pattern>
@@ -128,19 +140,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.HelloClass" />
-      <item itemvalue="Application.Listing" />
-      <item itemvalue="Application.MyMethod" />
-      <item itemvalue="Application.Scanner_input" />
-      <item itemvalue="Application.ModalWindow" />
+      <item itemvalue="Application.Listing6_6" />
+      <item itemvalue="Application.SwitchCase" />
+      <item itemvalue="Application.WithInputing" />
+      <item itemvalue="Application.WithIf" />
+      <item itemvalue="Application.ForWithIf" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ModalWindow" />
-        <item itemvalue="Application.Scanner_input" />
-        <item itemvalue="Application.HelloClass" />
-        <item itemvalue="Application.MyMethod" />
-        <item itemvalue="Application.Listing" />
+        <item itemvalue="Application.ForWithIf" />
+        <item itemvalue="Application.WithIf" />
+        <item itemvalue="Application.WithInputing" />
+        <item itemvalue="Application.SwitchCase" />
+        <item itemvalue="Application.Listing6_6" />
       </list>
     </recent_temporary>
   </component>
