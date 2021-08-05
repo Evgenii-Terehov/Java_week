@@ -18,8 +18,7 @@ class MyMethod{
 
 class MyNewClass{
     int summa(int a, int b){
-        int summa = a + b;
-        return summa;
+        return a + b;
     }
 }
 class Listing{
@@ -34,8 +33,7 @@ class Listing{
 
 class Class {
     int summ(int a, int b) {
-        int summ = a + b;
-        return summ;
+        return a + b;
     }
 }
 
@@ -51,8 +49,7 @@ class HelloClass{
     int numb = 10;
     String string = "string";
     int summa(int a, int b){
-        int summa = a + b;
-        return summa;
+        return a + b;
     }
 
     public static void main(String[] args) {
@@ -133,7 +130,7 @@ class Testts{
     static final int BOX = 6;
     public static final String TITLE = "Manager";
 
-    public void change(){
+    public static void change(String [] args){
         // будет получена ошибка п всем трем примерам, так как изменить
 //    изменить значения с модиикатором final нельзя
         //value = 2;
