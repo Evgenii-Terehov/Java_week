@@ -131,10 +131,11 @@ class Testts{
     public static final String TITLE = "Manager";
 
     public static void change(String [] args){
-        // будет получена ошибка п всем трем примерам, так как изменить
-//    изменить значения с модиикатором final нельзя
-        //value = 2;
-        //BOX = 1;
-        //TITLE = "Master";
+       /*  будет получена ошибка пo всем трем примерам, так как
+    изменить значения с модификатором final нельзя
+        value = 2;
+        BOX = 1;
+        TITLE = "Master";
+        */
     }
 }

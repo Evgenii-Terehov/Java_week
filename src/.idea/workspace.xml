@@ -8,11 +8,8 @@
   <component name="ChangeListManager">
     <list default="true" id="91153ccf-2425-44cf-8343-a9cdb3ad8953" name="Default Changelist" comment="Added new version of constructor and made constructor in child class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/company/Constructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/company/Constructor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/com/company/MyClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/company/MyClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/One_hour_lesson/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/One_hour_lesson/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/One_hour_lesson/com/company/Cat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/One_hour_lesson/com/company/Cat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/One_hour_lesson/com/company/Testts.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/One_hour_lesson/com/company/Testts.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +49,9 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1t4chTbUktHZrJxJAMZNEhSaCyL" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -67,7 +66,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
-  <component name="RunManager" selected="Application.Field">
+  <component name="RunManager" selected="Application.Test">
     <configuration name="Cat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.company.Cat" />
       <module name="One_hour_lesson" />
@@ -120,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WithIfHard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.WithIfHard" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.sub_pakage.SubPackage.Test" />
       <module name="One_hour_lesson" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.*" />
+          <option name="PATTERN" value="com.company.sub_pakage.SubPackage.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,19 +133,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.WithIfHard" />
       <item itemvalue="Application.Cat" />
       <item itemvalue="Application.Dog" />
       <item itemvalue="Application.ForChildClass" />
       <item itemvalue="Application.Field" />
+      <item itemvalue="Application.Test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.Field" />
         <item itemvalue="Application.ForChildClass" />
         <item itemvalue="Application.Cat" />
         <item itemvalue="Application.Dog" />
-        <item itemvalue="Application.WithIfHard" />
       </list>
     </recent_temporary>
   </component>
