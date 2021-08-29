@@ -8,7 +8,10 @@
   <component name="ChangeListManager">
     <list default="true" id="91153ccf-2425-44cf-8343-a9cdb3ad8953" name="Default Changelist" comment="Added new version of constructor and made constructor in child class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/company/MyClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/company/MyClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/company/Constructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/company/Constructor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/company/RandomGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/company/RandomGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/company/sub_pakage/SubPackage/AbstractClasses.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/company/sub_pakage/SubPackage/AbstractClasses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/One_hour_lesson/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/One_hour_lesson/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +24,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -44,6 +48,9 @@
       </UrlAndAccount>
     </option>
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="2" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
@@ -64,10 +71,11 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
-  <component name="RunManager" selected="Application.Test">
-    <configuration name="Cat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Cat" />
+  <component name="RunManager" selected="Application.RandomGame">
+    <configuration name="C" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.C" />
       <module name="One_hour_lesson" />
       <extension name="coverage">
         <pattern>
@@ -79,8 +87,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Dog" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Dog" />
+    <configuration name="Quest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Quest" />
       <module name="One_hour_lesson" />
       <extension name="coverage">
         <pattern>
@@ -92,8 +100,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Field" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Field" />
+    <configuration name="RandomGame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.RandomGame" />
       <module name="One_hour_lesson" />
       <extension name="coverage">
         <pattern>
@@ -105,21 +113,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ForChildClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.ForChildClass" />
-      <module name="One_hour_lesson" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.sub_pakage.SubPackage.Test" />
+    <configuration name="Second" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.sub_pakage.SubPackage.Second" />
       <module name="One_hour_lesson" />
       <extension name="coverage">
         <pattern>
@@ -131,20 +126,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="company" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company" />
+      <module name="One_hour_lesson" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.sub_pakage.SubPackage.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="outputExt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.outputExt" />
+      <module name="One_hour_lesson" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.Cat" />
-      <item itemvalue="Application.Dog" />
-      <item itemvalue="Application.ForChildClass" />
-      <item itemvalue="Application.Field" />
-      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.company" />
+      <item itemvalue="Application.Quest" />
+      <item itemvalue="Application.C" />
+      <item itemvalue="Application.Second" />
+      <item itemvalue="Application.outputExt" />
+      <item itemvalue="Application.RandomGame" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Field" />
-        <item itemvalue="Application.ForChildClass" />
-        <item itemvalue="Application.Cat" />
-        <item itemvalue="Application.Dog" />
+        <item itemvalue="Application.RandomGame" />
+        <item itemvalue="Application.outputExt" />
+        <item itemvalue="Application.Second" />
+        <item itemvalue="Application.C" />
+        <item itemvalue="Application.Quest" />
       </list>
     </recent_temporary>
   </component>

@@ -82,3 +82,15 @@ class Test{
 }
 
 
+class ForImplementation implements InterfaceTest{
+    @Override
+    public int mult(int a){
+        return (a * 9);
+
+    }
+    @Override
+    public double div(double b) {
+        return (b / 3);
+    }
+}
+

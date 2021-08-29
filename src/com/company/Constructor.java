@@ -119,3 +119,34 @@ class Field{
         slow.cow();
     }
 }
+
+
+class A {
+    public A() {
+        System.out.print("A");
+    }
+}
+class B extends A {
+    public B() {
+        System.out.print("B");
+    }
+}
+class C extends B {
+    public C() {
+        System.out.print("C");
+    }
+    public static void main(String[] args) {
+        C c = new C();
+    }
+}
+
+class D{
+    D(int i){
+        System.out.print("Constructor A");
+    }
+}
+//class Quest extends D{
+//    public Quest(){}
+//
+//    public static void main(String[] args){
+//        Quest quest = new Quest();}}
