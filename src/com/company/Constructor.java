@@ -2,6 +2,27 @@ package com.company;
 
 import javax.swing.*;
 
+
+class Program {
+public static void main(String[] args) {
+        Catd sam = new SiameseCat(); //1
+        sam.zzz(); //2
+        }
+        }
+abstract class Catd {
+    abstract void eat();
+    void zzz() {
+        System.out.println("Sleeps whole day");
+    }
+}
+class SiameseCat extends Catd {
+    @Override
+    void eat() {
+
+    }
+}
+
+
 class Cat {
     private String name;
     private String poroda;
@@ -150,3 +171,26 @@ class D{
 //
 //    public static void main(String[] args){
 //        Quest quest = new Quest();}}
+
+
+// Это пример из курса по Java по вызову конструктора
+    class Cars {
+protected int wheelCount;
+private String model;
+public Cars(String model) {
+        this.model = model;
+        this.wheelCount = 4;
+        }
+public String getlnfo() {
+        return "Model: " + model + " wheels:" + wheelCount;
+        }
+        }
+class SuperCar extends Cars {
+    public SuperCar (String model) {
+        super(model);
+        this.wheelCount = 3; //line 1
+    }
+}
+
+
+

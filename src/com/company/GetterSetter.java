@@ -1,7 +1,9 @@
 package com.company;
 
+import java.util.Comparator;
+
 class Car {
-    public static int number;
+
     private String model;
     private String color;
     Car (){
@@ -48,21 +50,46 @@ class Testt {
         Car car2 = new Car("RED", "Ford");
         car.run();
         car1.stop();
-        System.out.println(car.getModel() + "\n" + car.getColor());
-        car.setModel("Lada");
-        car.setColor("Green");
-        System.out.println(car.getModel() + "\n" + car.getColor());
+        System.out.println(car2.getModel() + "\n" + car2.getColor());
+        car2.setModel("Lada");
+        car2.setColor("Green");
+
+        System.out.println(car2.getModel() + "\n" + car2.getColor());
     }
 }
-class Quest {
-    Quest (int i){
-        System.out.print("Constructor");
+
+
+
+class CreditCalculator {
+    private int monthlyPayment = 1000;
+    public void setAmount(int i) {}
+    public void setYears(int i){}
+    public void calculate(){}
+    public int getMonthlyPayment (){
+        return this.monthlyPayment;
     }
-    public static void main(String[] args){
-        Quest quest = new Quest(); //1
+
+}
+
+// Another example of getter and setter
+
+class Application {
+
+    private CreditCalculator calculator;
+
+    public void init() {
+        calculator = new CreditCalculator();
     }
-    public Quest() {
-        new Quest(1);
-        //3
+    public void run() {
+        calculator.setAmount(500000);
+        calculator.setYears(3);
+        calculator.calculate();
+        System.out.println("Месячный платеж: " + calculator.getMonthlyPayment());
+    }
+
+    public static void main(String[] args) {
+        Application application = new Application();
+        application.init();
+        application.run();
     }
 }
